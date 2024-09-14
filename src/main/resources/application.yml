@@ -1,14 +1,12 @@
 spring:
   application:
-    name: suspicious.car
+    name: suspicious-car
 
   datasource:
     url: jdbc:mysql://localhost:3306/suspicious_car_db
     username: root
     password: root
 
-  data:
-    jpa:
   ai:
     openai:
       api-key: ${OPENAI_API_KEY}
