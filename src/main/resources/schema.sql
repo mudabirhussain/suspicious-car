@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS cars (
+    id INT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    fraud VARCHAR(255) NOT NULL,
+    image BLOB
+);

@@ -1,0 +1,1 @@
+Analyze the provided image and identify all cars present. For each car, extract the number plate and return it in a structured format. If a car's number plate is unclear or unreadable, count it but do not mention it.
